@@ -1,0 +1,360 @@
+<!doctype html>
+<html>
+
+<head lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <title>CoderDojo 新所沢 - 子どものためのプログラミング道場</title>
+    <meta name="description" content="CoderDojo 新所沢 - 子どものためのプログラミング道場" />
+    <meta name="keywords" content="CoderDojo, Scratch, Unity, Processing, Python">
+    <meta property="og:title" content="">
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fancybox/jquery.fancybox-v=2.1.5.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,600,300,200&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+
+    <link rel="prefetch" href="images/zoom.png">
+
+    <link rel="shortcut icon" href="images/favicon.ico">
+</head>
+
+<body>
+    <div class="navbar navbar-fixed-top" data-activeslide="1">
+        <div class="container">
+
+            <!-- .navbar-toggle is used as the toggle for collapsed navbar content -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+
+            <div class="nav-collapse collapse navbar-responsive-collapse">
+                <ul class="nav row">
+                    <li data-slide="1" class="col-12 col-sm-2"><a id="menu-link-1" href="#slide-home" title="Next Section"><span class="icon icon-home"></span> <span class="text">ホーム</span></a></li>
+                    <li data-slide="2" class="col-12 col-sm-2"><a id="menu-link-2" href="#slide-coderdojo" title="Next Section"><span class="icon icon-user"></span> <span class="text">CoderDojo</span></a></li>
+                    <li data-slide="3" class="col-12 col-sm-2"><a id="menu-link-3" href="#slide-kotesashi" title="Next Section"><span class="icon icon-gears"></span> <span class="text">新所沢Dojo</span></a></li>
+                    <li data-slide="4" class="col-12 col-sm-2"><a id="menu-link-4" href="#slide-entry" title="Next Section"><span class="icon icon-calendar"></span> <span class="text">開催予定</span></a></li>
+                    <li data-slide="5" class="col-12 col-sm-2"><a id="menu-link-5" href="#slide-contact" title="Next Section"><span class="icon icon-envelope"></span> <span class="text">お問い合わせ</span></a></li>
+                    <li data-slide="6" class="col-12 col-sm-2"><a id="menu-link-6" class="regular-link" target="_blank" href="https://coderdojoshintoko.blogspot.com/" title="Next Section"><span class="icon icon-briefcase"></span> <span class="text">ブログ</span></a></li>
+                </ul>
+                <div class="row">
+                    <div class="col-sm-2 active-menu"></div>
+                </div>
+            </div>
+            <!-- /.nav-collapse -->
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- /.navbar -->
+
+
+    <!-- === Arrows === -->
+    <div id="arrows">
+        <div id="arrow-up" class="disabled"></div>
+        <div id="arrow-down"></div>
+        <div id="arrow-left" class="disabled visible-lg"></div>
+        <div id="arrow-right" class="disabled visible-lg"></div>
+    </div>
+    <!-- /.arrows -->
+
+
+    <!-- === MAIN Background === -->
+    <div class="slide story" id="slide-home" data-slide="1">
+        <div class="container">
+            <div id="home-row-1" class="row clearfix">
+                <div class="col-12">
+                    <img src="images/coderdojologo.svg" />
+                    <h1 class="font-semibold">CoderDojo 新所沢</h1>
+                    <h4 class="font-light">子どものためのプログラミング道場</h4>
+                </div>
+                <!-- /col-12 -->
+            </div>
+            <!-- /row -->
+            <div id="home-row-2" class="row clearfix">
+                <div class="col-12">
+                    <h2 class="font-semibold">第1回開催予定</h2>
+                    <h3 class="font-light">2022年10月16日(日) 13:30〜16:30</h3>
+                    <h2><a class="btn btn-success regular-link" href="#slide-entry" role="button">詳細はこちら</a></h2>
+                </div>
+                <!-- /col-12 -->
+                <!--<div class="col-12">
+                    <h2 class="font-semibold">ブログ書いてます！</h2>
+                    <h2><a class="btn btn-success regular-link" target="_blank" href="https://coderdojokotesashi.blogspot.jp" role="button">ブログを読む</a></h2>
+                </div -->
+                <!-- /col-12 -->
+            </div>
+            <!-- /row -->
+        </div>
+        <!-- /container -->
+    </div>
+    <!-- /slide1 -->
+
+    <!-- === CoderDojo === -->
+    <div class="slide story" id="slide-coderdojo" data-slide="2">
+        <div class="container">
+            <div class="row title-row">
+                <div class="col-12 font-semibold">CoderDojo</div>
+            </div>
+            <!-- /row -->
+            <div class="row line-row">
+                <div class="hr">&nbsp;</div>
+            </div>
+            <!-- /row -->
+            <div class="row content-row">
+                <div class="col-sm-1 hidden-sm">&nbsp;</div>
+                <div class="col-12 col-sm-10 font-lignt">
+                    <p>CoderDojo とは、子どものために無料で開かれているプログラミング道場です。<br> 2011年にアイルランドで始まり、世界112か国・2200の道場があります（2022年9月現在）。</p>
+                    <p>日本では2012年に東京・下北沢で初めて開催され、その後全国各地に道場が開かれています。</p>
+                    <p>
+                        <a class="btn btn-primary regular-link" target="_brank" href="https://coderdojo.com" role="button">CoderDojo.com(英語)</a>
+                        <a class="btn btn-primary regular-link" target="_brank" href="https://coderdojo.jp" role="button">CoderDojo Japan</a>
+                    </p>
+                </div>
+                <div class="col-sm-1 hidden-sm">&nbsp;</div>
+            </div>
+            <!-- /row -->
+        </div>
+        <!-- /container -->
+    </div>
+    <!-- /slide2 -->
+
+    <!-- === CoderDojo 小手指 @ Do it === -->
+    <div class="slide story" id="slide-kotesashi" data-slide="3">
+        <div class="container">
+            <div class="row title-row">
+                <div class="col-12 font-semibold">CoderDojo 新所沢 について</div>
+            </div>
+            <!-- /row -->
+            <div class="row line-row">
+                <div class="hr">&nbsp;</div>
+            </div>
+            <!-- /row -->
+            <div class="row content-row">
+                <div class="col-sm-1 hidden-sm">&nbsp;</div>
+                <div class="col-12 col-sm-10 font-light">
+                    <p>「CoderDojo 新所沢」は、埼玉県所沢市新所沢地区で開催されている CoderDojo です。</p>
+                    <p>2017年12月まで「CoderDojo 小手指 @ Do it」として開催していたものの、<br>諸事情により一時休止しておりましたが、2022年10月より Dojo 名を変えて、<br>再スタートすることになりました。</p>
+                    <p>主に新所沢公民館にて、月一回のペースで開催予定です。</p>
+                </div>
+                <div class="col-sm-1 hidden-sm">&nbsp;</div>
+            </div>
+            <!-- /row -->
+            <div class="row content-row">
+                <div class="col-12 col-sm-6">
+                    <p><i class="icon icon-bolt"></i></p>
+                    <h2 class="font-semibold">運営方針</h2>
+                    <div class="font-light">
+                        <p>CoderDojo 新所沢では、テキストやカリキュラム等は用意しておりません。</p>
+                        <p>ニンジャ（CoderDojo にプログラミングしに来ている子どもたち）は自分で何を作るか考え、実践していきます。</p>
+                        <p>何か困ったことがあれば、チャンピオン（主催者）やメンター（手助けしてくれる人）がフォローに入ります。</p>
+                    </div>
+                </div>
+                <!-- /col12 -->
+                <div class="visible-sm col-12">&nbsp;<br></div>
+                <div class="col-12 col-sm-6">
+                    <p><i class="icon icon-question-sign"></i></p>
+                    <h2 class="font-semibold">参加方法</h2>
+                    <div class="font-light">
+                        <p><a class="regular-link" href="#slide-entry">申し込みサイト</a>よりお申し込みください。（準備中）</p>
+                        <p>参加費用は無料です。</p>
+                        <p>CoderDojo 新所沢ではパソコンの貸出はしておりませんので、必ずノートPCをご持参ください。</p>
+                        <p>また、小学生（特に低学年）のニンジャについては、<br>できる限り保護者の方の付き添いをお願いします。</p>
+                    </div>
+                </div>
+                <!-- /col12 -->
+            </div>
+            <!-- /row -->
+            <div class="row content-row">
+                <div class="col-12 col-sm-6">
+                    <p><i class="icon icon-map-marker"></i></p>
+                    <h2 class="font-semibold">開催場所</h2>
+                    <div class="font-light">
+                        <p>新所沢公民館</p>
+                        <p>住所 : 埼玉県所沢市緑町１丁目８−３</p>
+                    </div>
+                    <div class="ggmap">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12943.32603843212!2d139.451275!3d35.8040695!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xabcc362a73798ad9!2z5paw5omA5rKi5YWs5rCR6aSo!5e0!3m2!1sja!2sjp!4v1663504600577!5m2!1sja!2sjp" width="400"
+                            height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <!-- /col12 -->
+                <div class="visible-sm col-12">&nbsp;<br></div>
+                <div class="col-12 col-sm-6">
+                    <p><i class="icon icon-cog"></i></p>
+                    <h2 class="font-semibold">主催者</h2>
+                    <div class="font-light">
+                        <p><img src="images/face.jpg" style="width:30%; height:30%; border-radius:160px" /></p>
+                        <p><span class="font-semibold">原木 正志（はらき まさし）</span></p>
+                        <p>1974年東京生まれ、埼玉県川口市育ち、所沢市在住のフリーランスプログラマです。</p>
+                        <p>
+                            <a class="btn btn-primary regular-link" target="_brank" href="https://www.mashsoft.jp" role="button">mashsoft.jp (仕事関係)</a>
+                            <a class="btn btn-primary regular-link" target="_brank" href="https://haraki.jp" role="button">haraki.jp (個人サイト)</a>
+                        </p>
+                    </div>
+                </div>
+                <!-- /col12 -->
+            </div>
+            <!-- /row -->
+            <div class="row content-row">
+                <div class="col-12 col-sm-6">
+                    <p><i class="icon icon-heart"></i></p>
+                    <h2 class="font-semibold">メンター・運営スタッフ募集</h2>
+                    <div class="font-light">
+                        <p>CoderDojo 新所沢 では、メンターになって頂ける方を募集中です。</p>
+                        <p>プログラミングスキルがあるに越したことはないですが、無くても大丈夫です！（他の Dojo でも、職業プログラマでない人がメンターやっていたりします）</p>
+                        <p>ニンジャたちと一緒に、悩み、考え、喜んで頂ける方であればOKです！</p>
+                        <p>また、受付・写真撮影・開催レポート作成等をお手伝い頂ける運営スタッフも募集中です。</p>
+                        <p>ご興味ある方は、ぜひ<a class="regular-link" href="#slide-contact">お問い合わせ</a>ください。</p>
+                    </div>
+                </div>
+                <!-- /col12 -->
+                <div class="visible-sm col-12">&nbsp;<br></div>
+                <div class="col-12 col-sm-6">
+                    <p><i class="icon icon-gift"></i></p>
+                    <h2 class="font-semibold">募金・寄付について</h2>
+                    <div class="font-light">
+                        <p>CoderDojo 新所沢 では参加費は頂いておりませんが、会場費や参考書籍、その他諸々でどうしても運営にある程度の経費がかかります。</p>
+                        <p>そのため、会場には募金箱を設置しておりますので、お気持ちで構いませんのでご協力頂けると助かります。</p>
+                        <p>頂いた募金は大切に使わせていただきます。</p>
+                        <p>また、不要になったノートPCや、Arduino・Raspberry Pi等のマイコンボードがございましたら、お譲り頂けると助かります。</p>
+                        <p>なお誠に勝手ながら、お引き取りできるのは完動品（ノートPCの場合は最低限 Scratch が動作する程度のスペック）に限ります。</p>
+                    </div>
+                </div>
+                <!-- /col12 -->
+            </div>
+            <!-- /row -->
+        </div>
+        <!-- /container -->
+    </div>
+    <!-- /slide4 -->
+
+    <!-- === SLide 3 - Portfolio -->
+    <!--<div class="slide story" id="slide-gallery" data-slide="3">-->
+    <!--<div class="row">-->
+    <!--<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href=""><img class="thumb" src="" alt=""></a></div>-->
+    <!--</div>-->
+    <!-- /row -->
+    <!--</div>-->
+    <!-- /slide3 -->
+
+    <!-- === 参加申し込み === -->
+    <div class="slide story" id="slide-entry" data-slide="4">
+        <div class="container">
+            <div class="row title-row">
+                <div class="col-12"><span class="font-semibold">開催予定</span></div>
+            </div>
+            <!-- /row -->
+            <div class="row line-row">
+                <div class="hr">&nbsp;</div>
+            </div>
+            <!-- /row -->
+            <div class="row subtitle-row">
+                <div class="col-12">
+                    <h2 class="font-light">第1回</h2>
+                    <h2 class="font-semibold">2022年10月16日(日) 13:30〜16:30</h2>
+                </div>
+            </div>
+            <!-- /row -->
+            <div class="row content-row">
+                <div class="col-sm-1 hidden-sm">&nbsp;</div>
+                <div class="col-12 col-sm-10 font-light">
+                    <p>申し込みサイトは現在準備中です。</p>
+                </div>
+                <div class="col-sm-1 hidden-sm">&nbsp;</div>
+            </div>
+            <!-- /row -->
+        </div>
+        <!-- /container -->
+    </div>
+    <!-- /slide5 -->
+
+    <!-- === お問い合わせ === -->
+    <div class="slide story" id="slide-contact" data-slide="5">
+        <div class="container">
+            <div class="row title-row">
+                <div class="col-12"><span class="font-semibold">お問い合わせ</span></div>
+            </div>
+            <!-- /row -->
+            <div class="row line-row">
+                <div class="hr">&nbsp;</div>
+            </div>
+            <!-- /row -->
+            <div class="row content-row">
+                <div class="col-sm-1 hidden-sm">&nbsp;</div>
+                <div class="col-12 col-sm-10 font-light">
+                    <p>CoderDojo 新所沢に関するお問い合わせは、メール・Twitter でお願い致します。</p>
+                    <p>見学希望の方も、こちらからお申し込みください。</p>
+                </div>
+                <div class="col-sm-1 hidden-sm">&nbsp;</div>
+            </div>
+            <!-- /row -->
+            <div id="contact-row-4" class="row">
+                <div class="col-12 col-sm-6 with-hover-text">
+                    <p><a target="_blank" href="mailto:coderdojokotesashi@gmail.com"><i class="icon icon-envelope"></i></a></p>
+                    <p></p><span class="hover-text font-light ">coderdojoshintoko@gmail.com</span></a>
+                    </p>
+                </div>
+                <!-- /col12 -->
+                <div class="col-12 col-sm-6 with-hover-text">
+                    <p><a target="_blank" href="https://twitter.com/coderdojo_st"><i class="icon icon-twitter-sign"></i></a></p>
+                    <p><span class="hover-text font-light ">@coderdojo_st</span></a>
+                    </p>
+                </div>
+                <!-- /col12 -->
+            </div>
+            <!-- /row -->
+        </div>
+        <!-- /container -->
+    </div>
+    <!-- /Slide 6 -->
+
+    <div class="slide story" id="slide-footer">
+        <div class="container">
+            <div class="row content-row">
+                <div class="col-12 font-light">
+                    &copy; 2022 CoderDojo 新所沢<br>
+                </div>
+            </div>
+            <!-- /row -->
+        </div>
+        <!-- /container -->
+    </div>
+    <!-- /footer -->
+</body>
+
+<!-- SCRIPTS -->
+<script src="js/html5shiv.js"></script>
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="fancybox/jquery.fancybox.pack-v=2.1.5.js"></script>
+<script src="js/script.js"></script>
+
+<!-- fancybox init -->
+<script>
+    $(document).ready(function(e) {
+        var lis = $('.nav > li');
+        menu_focus(lis[0], 1);
+
+        $(".fancybox").fancybox({
+            padding: 10,
+            helpers: {
+                overlay: {
+                    locked: false
+                }
+            }
+        });
+
+    });
+</script>
+
+</html>
